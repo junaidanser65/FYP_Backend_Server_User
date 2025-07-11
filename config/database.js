@@ -2,10 +2,10 @@ const mysql = require('mysql2/promise');
 
 // Create a connection pool
 const pool = mysql.createPool({
-  host: process.env.DB_HOST || "sql308.infinityfree.com",
-  user: process.env.DB_USER || "if0_39450357",
-  password: process.env.DB_PASSWORD || "Unabia12345",
-  database: process.env.DB_NAME || "if0_39450357_fiesta_vendor_app",
+  host: process.env.DB_HOST || "sql12.freesqldatabase.com",
+  user: process.env.DB_USER || "sql12789560",
+  password: process.env.DB_PASSWORD || "eqr54ATed8",
+  database: process.env.DB_NAME || "sql12789560",
   port: process.env.DB_PORT || 3306,
   waitForConnections: true,
   connectionLimit: 10,
